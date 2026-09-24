@@ -1,1 +1,16 @@
 Version 1
+
+
+I changed a file and don't want the changes:	git restore file_name
+I staged a file accidentally	git restore --staged file_name
+I committed something bad	git revert <commit>
+I want my branch to point to an older commit	git reset --hard <commit>
+
+
+restore: works at file level
+revert: works at commit level 
+reset: work at branch level
+
+
+
+git reflog.
